@@ -1,11 +1,12 @@
 import {
   createRouter,
   createWebHistory,
+  Router,
 } from 'vue-router';
 
 import HomeView from './views/HomeView.vue';
 
-export const router = createRouter({
+export const router : Router = createRouter({
   routes: [
     {
       path: "/",
