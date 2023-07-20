@@ -92,16 +92,16 @@
                     <h3 class="text-lg font-medium">Hazelnut Latte</h3>
                     <ul class="flex flex-col gap-5 mb-8 md:mb-20">
                         <li class="flex items-center gap-4">
-                            <img src={checkIcon} alt="" /> Hazelnut Syrup
+                            <img src="/assets/icons/check-circle.svg" alt="" /> Hazelnut Syrup
                         </li>
                         <li class="flex items-center gap-4">
-                            <img src={checkIcon} alt="" /> Wanilla Whipped Cream
+                            <img src="/assets/icons/check-circle.svg" alt="" /> Wanilla Whipped Cream
                         </li>
                         <li class="flex items-center gap-4">
-                            <img src={checkIcon} alt="" /> Ice / Hot
+                            <img src="/assets/icons/check-circle.svg" alt="" /> Ice / Hot
                         </li>
                         <li class="flex items-center gap-4">
-                            <img src={checkIcon} alt="" /> Sliced Banana on Top
+                            <img src="/assets/icons/check-circle.svg" alt="" /> Sliced Banana on Top
                         </li>
                     </ul>
                     <p class="font-medium text-2xl">IDR 25.000</p>
