@@ -164,7 +164,7 @@
                             <p class="text-primary text-sm">Warsaw, Poland</p>
                         </div>
                         <div class="flex flex-row items-center gap-2">
-                            4.5 <img src={starIcon} alt="" />
+                            4.5 <img src="/assets/icons/star.svg" alt="" />
                         </div>
                     </div>
                     <p class="text-primary-title">“{{ text }}</p>
