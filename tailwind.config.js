@@ -13,11 +13,42 @@ export default {
         primary: "0px 6px 20px 0px #00000020;",
       },
       colors: {
-        primary: { DEFAULT: "#6A4029" },
+        primary: {
+          50: "#50150C",
+          100: "#5B2313",
+          200: "#63311D",
+          300: "#77513C",
+          400: "#85624F",
+          500: "#927362",
+          600: "#9F8374",
+          700: "#9F8374",
+          800: "#AC9487",
+          900: "#B9A59A",
+
+          DEFAULT: "#6A4029",
+        },
         "primary-title": "#0b132a",
         secondary: "#ffba33",
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: [
+      {
+        jokopi: {
+          primary: "#6A4029",
+          secondary: "#ffba33",
+          accent: "#0b132a",
+          neutral: "#9f9f9f",
+          "base-100": "#fff",
+          info: "#3ABFF8",
+          success: "#36D399",
+          warning: "#FBBD23",
+          error: "#F87272",
+          "plain-white": "#FFF",
+        },
+      },
+    ],
+  },
+  plugins: [require("daisyui")],
 };
